@@ -1,3 +1,5 @@
+#Code reference : http://quiz.geeksforgeeks.org/binary-search/
+
 def bin_search(arr, ele):
     low = 0
     high = len(arr)-1
