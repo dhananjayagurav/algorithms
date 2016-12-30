@@ -36,10 +36,10 @@ Sample Output
 import sys
 
 
-n,m = raw_input().strip().split(' ')
-n,m = [int(n),int(m)]
-a = map(int,raw_input().strip().split(' '))
-b = map(int,raw_input().strip().split(' '))
+n,m = raw_input("Enter number of elements (separated by space) in array A and array B: ").strip().split(' ')
+n,m = int(n),int(m)
+a = map(int,raw_input("Enter elements of array A (space separated): ").strip().split(' '))
+b = map(int,raw_input("Enter elements of array B (space separated): ").strip().split(' '))
 
 n_start = a[len(a)-1]
 n_end = b[0]
